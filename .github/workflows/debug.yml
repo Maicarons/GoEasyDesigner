@@ -62,7 +62,7 @@ jobs:
           wails build -debug 
 
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: debug-${{ runner.os }}
           path: GoEasyDesigner/build/bin/GoEasyDesigner.exe
@@ -107,7 +107,7 @@ jobs:
           cd GoEasyDesigner
           wails build -debug 
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: debug-${{ runner.os }}
           path: GoEasyDesigner/build/bin/GoEasyDesigner
@@ -149,7 +149,7 @@ jobs:
           cd GoEasyDesigner
           wails build -debug 
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: debug-${{ runner.os }}
           path: GoEasyDesigner/build/bin/GoEasyDesigner.app
