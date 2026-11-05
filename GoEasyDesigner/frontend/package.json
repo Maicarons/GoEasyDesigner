@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "@guolao/vue-monaco-editor": "^1.2.0",
-    "element-plus": "^2.3.9",
+    "element-plus": "^2.11.1",
     "pinia": "^2.1.4",
     "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue": "^4.6.2",
     "monaco-editor-webpack-plugin": "^7.1.0",
     "unplugin-auto-import": "^0.16.6",
     "unplugin-icons": "^0.16.6",
     "unplugin-vue-components": "^0.25.1",
-    "vite": "^4.4.6"
+    "vite": "^7.3.1"
   }
 }
